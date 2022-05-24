@@ -1,0 +1,16 @@
+public class employeepartime {
+
+    public void employeeparttime(){
+
+        int wageperhour = 20;
+        int parttimehour = 8;
+        int i = wageperhour * parttimehour;
+        System.out.println("part time employee & wage :" +(wageperhour * parttimehour));
+
+    }
+    public static void main(String[] args) {
+        employeepartime employee = new employeepartime();
+        employee.employeeparttime();
+    }
+}
+

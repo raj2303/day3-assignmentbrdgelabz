@@ -1,0 +1,18 @@
+public class employeewage {
+
+    public employeewage() {
+    }
+
+    void employeewage() {
+        int wageperhour = 20;
+        int fulldayhour = 8;
+        int i = wageperhour * fulldayhour;
+        System.out.println("daily wage of employee :"+(wageperhour *  fulldayhour));
+    }
+
+    public static void main(String[] args) {
+
+        employeewage employee = new employeewage();
+        employee.employeewage();
+    }
+}
